@@ -3,6 +3,9 @@ Códigos presentados en clase de los sábados y algoritmos extras.
 
 # Integrantes
 Daniel Núñez
+\n
 Angelo Bonifacio
+\n
 Isaac Herrera
+\n
 Marco Reyes
