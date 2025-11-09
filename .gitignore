@@ -1,0 +1,25 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# Archivos de VS Code
+.vscode/
+
+# Archivos de entorno
+.env
+.env.*
+
+# Datos de pruebas o caché
+.cache/
+.ipynb_checkpoints/
