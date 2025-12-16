@@ -1,0 +1,31 @@
+id_area,nombre_area,descripcion
+1,Ingeniería de Software,"Enfocado en lógica,  patrones,  pensamiento estructurado y tecnología."
+2,Ingeniería Civil,Ideal para estudiantes con razonamiento espacial y matemático aplicado.
+3,Ingeniería Química,"Para estudiantes fuertes en química,  ciencia y procesos industriales."
+4,Ingeniería Mecánica,Para perfiles analíticos con interés en máquinas y sistemas físicos.
+5,Medicina,"Para estudiantes disciplinados,  responsables,  consistentes y empáticos."
+6,Enfermería,"Para estudiantes pacientes,  cuidadosos y con vocación de servicio."
+7,Psicología,"Para perfiles reflexivos,  empáticos y comunicativos."
+8,Derecho,"Para estudiantes argumentativos,  diplomáticos y lectores intensivos."
+9,Economía,Para estudiantes analíticos con alto pensamiento numérico.
+10,Contabilidad,Para estudiantes organizados y detallistas.
+11,Marketing Digital,"Para estudiantes creativos,  sociables e innovadores."
+12,Diseño Gráfico,Para perfiles visuales y altamente creativos.
+13,Arquitectura,Para estudiantes creativos con razonamiento espacial.
+14,Piloto de Aviación,"Para estudiantes disciplinados,  de alta concentración y sangre fría."
+15,Militar/Policial,Para perfiles disciplinados y de alta condición física.
+16,Atleta Profesional,Para estudiantes con alto rendimiento físico y hábitos deportivos.
+17,Profesor de Matemáticas,Para estudiantes con razonamiento lógico fuerte.
+18,Profesor de Inglés,Para estudiantes comunicativos y con habilidades lingüísticas.
+19,Chef Profesional,"Para estudiantes creativos,  prácticos y detallistas."
+20,Agrimensura,Para estudiantes con precisión matemática y gusto por el campo/medición.
+21,Agronomía,Para estudiantes que destacan en biología y trabajo práctico.
+22,Programador de Videojuegos,Para estudiantes con creatividad + lógica.
+23,Ciberseguridad,"Para estudiantes meticulosos,  analíticos y persistentes."
+24,Diseño Industrial,Para estudiantes creativos + técnicos.
+25,Administración de Empresas,Para estudiantes organizados y comunicativos.
+26,Recursos Humanos,"Para estudiantes empáticos,  sociales y organizados."
+27,Comunicación Social,Para estudiantes expresivos y sociables.
+28,Periodismo,Para estudiantes curiosos y comunicadores fuertes.
+29,Logística y Transporte,Para estudiantes organizados y orientados a procesos.
+30,Técnico en Redes,Para estudiantes prácticos y orientados a hardware/sistemas.
