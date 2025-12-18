@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Reducer AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <h1>TRAFFIC REDUCER <span class="ai-badge">AI</span></h1>
+            <p>Adaptive Traffic Control System</p>
+        </header>
+
+        <main>
+            <!-- Camera Feed Section -->
+            <div class="camera-section">
+                <div class="monitor-frame" id="security-monitor">
+                    <div class="screen">
+                        <!-- Stream processed video from backend -->
+                        <img src="{{ url_for('video_feed') }}" alt="Processing Feed..." id="cam-feed">
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 10px;">
+                    <button class="cv-btn" id="activate-cv">ACTIVATE TRAFFIC CONTROL</button>
+                </div>
+            </div>
+
+            <!-- Visualizer Section -->
+            <div class="intersection-container">
+                <div class="road north">
+                    <span class="road-label">NORTE</span>
+                    <div class="lane">
+                        <div class="cars" id="cars-north"></div>
+                        <div class="stop-line"></div>
+                    </div>
+                </div>
+                <div class="road south">
+                    <span class="road-label">SUR</span>
+                    <div class="lane">
+                        <div class="stop-line"></div>
+                        <div class="cars" id="cars-south"></div>
+                    </div>
+                </div>
+                <div class="road east">
+                    <span class="road-label">ESTE</span>
+                    <div class="lane">
+                        <div class="cars" id="cars-east"></div>
+                        <div class="stop-line"></div>
+                    </div>
+                </div>
+                <div class="road west">
+                    <span class="road-label">OESTE</span>
+                    <div class="lane">
+                        <div class="stop-line"></div>
+                        <div class="cars" id="cars-west"></div>
+                    </div>
+                </div>
+
+                <div class="center-junction">
+                    <div class="traffic-light north-light" id="light-north">
+                        <span class="light-label">N</span>
+                        <div class="bulb red active"></div>
+                        <div class="bulb green"></div>
+                    </div>
+                    <div class="traffic-light south-light" id="light-south">
+                        <span class="light-label">S</span>
+                        <div class="bulb red active"></div>
+                        <div class="bulb green"></div>
+                    </div>
+                    <div class="traffic-light east-light" id="light-east">
+                        <span class="light-label">E</span>
+                        <div class="bulb red active"></div>
+                        <div class="bulb green"></div>
+                    </div>
+                    <div class="traffic-light west-light" id="light-west">
+                        <span class="light-label">W</span>
+                        <div class="bulb red active"></div>
+                        <div class="bulb green"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls Section -->
+            <div class="controls-panel">
+                <div class="control-group">
+                    <div class="mode-switch">
+                        <label class="switch">
+                            <input type="checkbox" id="live-mode-toggle">
+                            <span class="slider round"></span>
+                        </label>
+                        <span>LIVE SIMULATION MODE</span>
+                    </div>
+                    <div class="status-display">
+                        PRIORITY: <span id="priority-result">--</span>
+                    </div>
+                </div>
+
+                <div class="inputs-grid">
+                    <div class="input-card">
+                        <label>NORTE (North)</label>
+                        <input type="range" id="input-north" min="0" max="100" value="10">
+                        <span class="value-display" id="val-north">10</span> cars
+                    </div>
+                    <div class="input-card">
+                        <label>SUR (South)</label>
+                        <input type="range" id="input-south" min="0" max="100" value="10">
+                        <span class="value-display" id="val-south">10</span> cars
+                    </div>
+                    <div class="input-card">
+                        <label>ESTE (East)</label>
+                        <input type="range" id="input-east" min="0" max="100" value="10">
+                        <span class="value-display" id="val-east">10</span> cars
+                    </div>
+                    <div class="input-card">
+                        <label>OESTE (West)</label>
+                        <input type="range" id="input-west" min="0" max="100" value="10">
+                        <span class="value-display" id="val-west">10</span> cars
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>

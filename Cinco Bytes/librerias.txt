@@ -1,0 +1,8 @@
+pip install pandas
+pip install matplotlib
+pip install seaborn
+pip install pillow
+-- Jeremy Santiago: 
+pip install numpy 
+pip install scipy
+Si le da error con el tkinter tiene que actualizar su vercion de python 

@@ -1,0 +1,53 @@
+id_observacion,id_estudiante,fecha,autor,observacion
+1,1,2025-08-10,Prof. Martínez,Excelente redacción en ensayos
+2,1,2025-10-15,Coordinación Académica,Participación destacada en debates
+3,2,2025-09-02,Tutor,Dificultades en Matemática
+4,3,2025-08-12,Orientación,Ausencias recurrentes
+5,4,2025-09-20,Prof. García,Excelente desempeño en Ciencias Sociales
+6,5,2025-10-05,Coordinación,Representante en olimpiadas de Matemática
+7,2,2025-11-15,Tutor Académico,Mejoró asistencia
+8,6,2025-08-30,Prof. Fernández,Bajo rendimiento en Formación Humana
+9,7,2025-09-25,Prof. López,Excelente en proyectos de Ciencias
+10,8,2025-10-18,Prof. Torres,Destacado en competencias deportivas
+11,9,2025-09-15,Prof. Johnson,Avance notable en Inglés
+12,10,2025-10-22,Orientación,Requiere apoyo integral
+13,1,2025-09-05,Prof. Rodríguez,Líder natural en trabajos grupales
+14,1,2025-11-20,Coordinación de Disciplina,Respetuoso con el material del aula y mobiliario
+15,2,2025-10-10,Prof. Martínez,Tímido en clase
+16,2,2025-12-01,Orientador,Falta de organización en su espacio de trabajo (mochila desordenada)
+17,3,2025-09-18,Prof. García,Constante distracción con el celular durante clases
+18,3,2025-11-05,Psicólogo escolar,Aislamiento social durante recreos
+19,4,2025-10-08,Prof. López,Ayuda espontáneamente a compañeros con dificultades
+20,4,2025-12-10,Coordinación Académica,Organizador del club de ciencias
+21,5,2025-09-22,Prof. Torres,Competitivo en exceso
+22,5,2025-11-25,Prof. Fernández,Excelente manejo del tiempo en presentaciones orales
+23,6,2025-10-12,Prof. Johnson,Conflictos frecuentes con compañeros durante Educación Física
+24,6,2025-12-03,Orientación,Desinterés por actividades culturales y artísticas de la escuela
+25,7,2025-09-28,Prof. Martínez,Muestra curiosidad científica
+26,7,2025-11-08,Coordinación Ecológica,Líder del comité de reciclaje del aula
+27,8,2025-10-20,Prof. García,Impaciente en explicaciones
+28,8,2025-12-12,Prof. Torres,Excelente espíritu deportivo
+29,9,2025-09-30,Prof. López,Ansioso ante exámenes
+30,9,2025-11-15,Prof. Johnson,Colaborativo en proyectos internacionales de idiomas
+31,10,2025-10-25,Prof. Fernández,Falta de higiene personal que afecta la convivencia
+32,10,2025-12-05,Psicólogo escolar,Victima de bullying sutil por parte de algunos compañeros
+33,1,2026-01-15,Prof. García,Representante estudiantil
+34,2,2026-01-20,Tutor,Mejoró notablemente en participación tras trabajo con psicólogo
+35,3,2026-01-10,Orientación,Inició terapia externa
+36,4,2026-01-25,Prof. Torres,Creador de material didáctico para ayudar a compañeros
+37,5,2026-01-18,Coordinación Académica,Presión excesiva de familia afecta su desempeño social
+38,6,2026-01-12,Prof. Johnson,Participó en concurso de oratoria
+39,7,2026-01-22,Prof. Martínez,Inventó experimento casero que compartió con toda la clase
+40,8,2026-01-28,Prof. Fernández,Lesión deportiva afectó su ánimo en el aula
+41,9,2026-01-14,Prof. López,Organizó intercambio cultural con escuela hermana en Francia
+42,10,2026-01-30,Orientación,Implementado plan de apoyo integral
+43,1,2026-02-10,Coordinación Disciplina,Modelo de comportamiento en formación y actos cívicos
+44,2,2026-02-15,Prof. García,Inició tutorías entre pares
+45,3,2026-02-05,Psicólogo escolar,Incorporado a grupo de teatro escolar para socialización
+46,4,2026-02-20,Prof. Johnson,Ganador de feria científica regional
+47,5,2026-02-12,Prof. Torres,Aprendió a delegar en trabajos grupales
+48,6,2026-02-18,Prof. Fernández,Descubrió talento artístico en taller de pintura extracurriculr
+49,7,2026-02-08,Prof. López,Creador de blog científico estudiantil con alto impacto
+50,8,2026-02-22,Prof. Martínez,Capitan del equipo de baloncesto
+51,9,2026-02-14,Prof. García,Superó ansiedad ante exámenes con técnicas de mindfulness
+52,10,2026-02-25,Orientación,Integrado a club de informática
