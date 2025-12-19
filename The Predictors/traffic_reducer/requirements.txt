@@ -1,9 +1,0 @@
-
-flask
-pandas
-numpy
-joblib
-scikit-learn
-opencv-python
-ultralytics
-yt-dlp
