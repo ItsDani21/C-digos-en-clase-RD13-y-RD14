@@ -7,5 +7,3 @@ Daniel Núñez
 Angelo Bonifacio
 
 Isaac Herrera
-
-Marco Reyes
